@@ -1,0 +1,76 @@
+#content{
+	width: 1158px;
+	position: relative;
+	top: 150px;
+	left: 0px;
+
+}
+
+#content .photo3{
+	width: 990px;
+	height: 850px;
+	/*border: 1px solid #f00;*/
+	position: absolute;
+	top: 1940px;
+	left: 55px;
+}
+#content .photo3 ul {
+	list-style-type: none;
+	width: 1100px;
+}
+#content .photo3 ul li{
+	float: left;
+	width: 165px;
+}
+
+/*点击图片放大的css代码*/
+#imgbox-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	display: none;
+	z-index:90;
+}
+
+.imgbox-wrap {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #FFF;
+	display: none;
+	z-index: 990;
+}
+
+#content .photo4{
+	width: 1100px;
+	position: absolute;
+	top: 2700px;
+	left: 0px;
+}
+#content .photo5{
+	width: 1100px;
+	position: relative;
+	top: 2100px;
+	left: 0px;
+}
+#content .photo6{
+	width: 1100px;
+	position: relative;
+	top: 2100px;
+	left: 0px;
+}
+#content .photo7{
+	width: 1100px;
+	position: relative;
+	top: 2100px;
+	left: 0px;
+}
+#footer{
+	width: 1158px;
+	position:relative;
+	top: 2230px;
+	left: 0px;
+}

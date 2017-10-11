@@ -1,0 +1,74 @@
+#content{
+	width: 1158px;
+	position: relative;
+	top: 160px;
+	left: 0px;
+}
+#content .photo1{
+	width: 1100px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+#content .photo2{
+	width: 1100px;
+	position: absolute;
+	top: 730px;
+	left: 0px;
+}
+#content .photo3{
+	width: 814px;
+	height: 89px;
+	display: inline;
+	position: absolute;
+	top: 1500px;
+	left: 180px;
+}
+#content .photo4{
+	width: 82px;
+	height: 476px;
+	display: inline;
+	position: absolute;
+	top: 1589px;
+	left: 180px;
+}
+#content .photo5{
+	width: 82px;
+	height: 476px;
+	display: inline;
+	position: absolute;
+	top: 1589px;
+	left: 911px;
+}
+#content .photo6{
+	width: 814px;
+	height: 99px;
+	display: inline;
+	position: absolute;
+	top: 1976px;
+	left: 180px;
+}
+
+/*图片切换的css代码*/
+#content #focus {
+	width: 651px;
+	height: 387px;
+	/*border: 1px solid #f00;*/
+	overflow: hidden;
+	position: relative;
+	top:1589px;
+	left: 260px;
+}
+#content #focus ul { width: 651px; height: 387px;  position: absolute; top: 0px; left: 0px; overflow: hidden; }
+#content #focus ul li { float: left; width: 651px; height: 387px; overflow: hidden;   }
+#content #focus .preNext { width: 150px; height: 387px; position: absolute; top: 0px;  cursor: pointer;  }
+#content #focus .pre { left: 0px; background: url(../img/sprite.png) no-repeat left center; }
+#content #focus .next { right: 0px; background: url(../img/sprite1.png) no-repeat right center; }
+
+
+#footer{
+	width: 1158px;
+	position: absolute;
+	top: 2260px;
+	left: 0px;
+}

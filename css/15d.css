@@ -1,0 +1,60 @@
+#content{
+	width: 1158px;
+	position: absolute;
+	top: 150px;
+	left: 0px;
+	/*border: 1px solid #f00;*/
+}
+#content p{
+	font-size: 12px;
+	margin-left: 50px;
+}
+#content .style1{
+	font-family: "微软雅黑";
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#content .photo1{
+	width: 1158px;
+	height: 730px;
+	/*border: 1px solid #f00;*/
+	position: absolute;
+	top: 130px;
+	left: 0px;
+}
+
+/*图片切换的css代码*/
+#lrtk{width:1000px;}
+#lrtk li{width:500px;}
+.mb-wrapper{margin:0 auto 20px;position:relative; height:500px;left:0;top:0;}
+.mb-slider,.mb-scroll{width:100%;height:380px;overflow:hidden;margin:0 auto;padding:0;position:relative;left:0;top:0}
+.mb-active-slider{border-color:#333}
+.mb-slider .mb-panel{margin-top:100px;display:block;cursor:pointer;float:left;list-style:none}
+.mb-panel a{outline:0}
+.mb-slider .mb-panel.current{cursor:auto}
+.mb-inside *{max-width:100%}
+a.mb-scrollButtons{display:block;width:45px;height:142px;background:transparent url(../img/m-16-qbtn.png) no-repeat;position:absolute;top:40%;margin-top:29px;cursor:pointer;text-decoration:none;outline:0;border:0;_background:transparent url(../images/arrows.gif) no-repeat}
+a.mb-scrollButtons.mb-left{background-position:left top;left:-45px}
+a.mb-scrollButtons.mb-right{background-position:right top;right:-45px}
+a.mb-scrollButtons.mb-left:hover{background-position:left bottom}
+a.mb-scrollButtons.mb-right:hover{background-position:right bottom}
+a.mb-scrollButtons.disabled{display:none}
+.mb-controls{margin:0 auto;height:20px;text-align:center;position:absolute; top:680px; left:400px;z-index:200
+}
+.mb-controls a{color:#666;font:18px/2.2 Georgia, Serif;display:inline-block;text-decoration:none;padding:2px;margin:0 5px 0 0;text-align:center;outline:0}
+.mb-panel{margin-top:90px}
+.mb-controls a:hover{color:black}
+.mb-controls a.current{color:#900}
+.main-nav{display:block; text-align:center; border-bottom:2px solid #a71700;margin:0 0 20px 0;padding:0 0 10px 0}
+.main-nav a{text-decoration:none;color:#3e63ec;font-size:18px;margin:0 8px}
+.main-nav a:hover{color:black;border-bottom:2px solid black}
+.mb-inside img{width:100%}
+
+
+#footer{
+	width: 1158px;
+	position: absolute;
+	top: 1050px;
+	left: 0px;
+}

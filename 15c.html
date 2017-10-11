@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="css/15d.css"/>
+		<script type="text/javascript" src="js/nav.js"></script>
+		
+		<!--图片切换的css代码-->
+		<script type="text/javascript" src="js/jquery.min-4.js"></script>
+		<script type="text/javascript" src="js/lf-15d.js"></script>
+		<script type="text/javascript">
+					$(function(){
+				$('#lrtk').movingBoxes({
+					startPanel   : 1,       // 从第一个li开始
+					reducedSize  : .5,      // 缩小到原图50%的尺寸
+					buildNav     : true,	// 显示指示器效果
+					navFormatter : function(){ return "&#9679;"; } // 指示器格式，为空即会显示123
+					
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<div id="container">
+			<div id="header">
+				<img src="img/logo-2.png"/>
+			</div>
+						<div id="nav">
+				<ul class="dht">
+					<li class="dhcd"><a href="index.html" class="yjdh">首页</a></li>
+					<li class="dhcd" onMouseOver="displaySubMenu(this);" onMouseOut="hideSubMenu(this)">
+						<a href="m-16-q.html" class="yjdh">Marisfrolg</a>
+						<ul style="display: none;">
+							<li><a href="m-16-q.html">2016秋季形象</a></li>
+							<li><a href="m-16-x.html">2016夏季形象</a></li>
+							<li><a href="m-16-c.html">2016春季形象</a></li>
+						</ul>
+					</li>
+					<li class="dhcd" onMouseOver="displaySubMenu(this);" onMouseOut="hideSubMenu(this)">
+						<a href="zx-xc.html" class="yjdh">最新资讯</a>
+						<ul style="display: none;">
+							<li class="jc"><a href="zx-xc.html">秀场直击</a></li>
+							<li><a href="15-qd.html">2015秋冬时装发布会</a></li>
+							<li><a href="14-qd.html">2014秋冬时装发布会</a></li>
+							<li><a href="13-qd.html">2013秋冬时装发布会</a></li>
+							<li class="jc"><a href="ml-sz.html">时装周项目</a></li>
+							<li><a href="ml-sz.html">ELLE米兰时装周</a></li>
+							<li><a href="ld-sz.html">ELLE伦敦时装周</a></li>
+						</ul>
+					</li>
+					<li class="dhcd" onMouseOver="displaySubMenu(this);" onMouseOut="hideSubMenu(this)">
+						<a href="cp-16q.html" class="yjdh">产品系列</a>
+						<ul style="display: none;">
+							<li><a href="cp-dy.html"><strong>大衣专题</strong></a></li>
+							<li><a href="cp-16q.html">2016秋季</a></li>
+							<li><a href="cp-16x.html">2016夏季</a></li>
+						</ul>
+					</li>
+					<li class="dhcd" onMouseOver="displaySubMenu(this);" onMouseOut="hideSubMenu(this)">
+						<a href="sp-sd.html" class="yjdh">饰品</a>
+						<ul style="display: none;">
+							<li><a href="sp-sd.html">手袋</a></li>
+							<li><a href="sp-xie.html">鞋</a></li>
+							<li><a href="sp-wj.html">围巾帽饰</a></li>
+							<li><a href="sp-pd.html">皮带</a></li>
+							<li><a href="sp-ss.html">首饰</a></li>
+						</ul>
+					</li>
+					<li class="dhcd" onMouseOver="displaySubMenu(this);" onMouseOut="hideSubMenu(this)">
+						<a href="lf.html" class="yjdh">礼服</a>
+						<ul style="display: none;">
+							<li><a href="15d.html">2015冬 极致雅韵</a></li>
+							<li><a href="15x.html">2015夏 灵动写意</a></li>
+							<li><a href="15c.html">2015春 静雅心韵</a></li>
+						</ul>
+					</li>
+					<li class="dhcd" onMouseOver="displaySubMenu(this);" onMouseOut="hideSubMenu(this)">
+						<a href="#" class="yjdh">关于品牌</a>
+						<ul style="display: none;">
+							<li><a href="#">公司简介</a></li>
+							<li><a href="#">人事招聘</a></li>
+							<li><a href="#">积分商城</a></li>
+							<li><a href="#">专卖店</a></li>
+							<li><a href="#">关注我们</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			
+			
+			<div id="content">
+				<p class="style1">2015春&nbsp; 静雅心韵</p>
+				<p>以蝴蝶兰为主题花型，Marisfrolg2015春季礼服系列在典雅的剪裁中，凝注静待花开的心韵。</p>
+              	<div class="photo1">
+              		<ul id="lrtk">
+              			<li><img src="img/15c-1.jpg"/></li>
+              			<li><img src="img/15c-2.jpg"/></li>
+              			<li><img src="img/15c-3.jpg"/></li>
+              			<li><img src="img/15c-4.jpg"/></li>
+              			<li><img src="img/15c-5.jpg"/></li>
+              			<li><img src="img/15c-6.jpg"/></li>
+              			<li><img src="img/15c-7.jpg"/></li>
+              			<li><img src="img/15c-8.jpg"/></li>
+              			<li><img src="img/15c-9.jpg"/></li>
+              			<li><img src="img/15c-10.jpg"/></li>
+              		</ul>
+              	</div>
+			</div>
+			<div id="footer">
+				<img src="img/m-16-qdb.jpg"/>
+			</div>
+		</div>
+	</body>
+</html>

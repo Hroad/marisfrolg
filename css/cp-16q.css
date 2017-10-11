@@ -1,0 +1,67 @@
+#content{
+	width: 1158px;
+	/*border: 1px solid #f00;*/
+	position: relative;
+	top: 150px;
+	left: 0px;
+}
+#content .text{
+	font-size: 20px; 
+	font-weight: bold;
+	color: #000;
+	margin-top:0px;
+}
+#content p{
+	width: 1068px;
+	font-family: arial;
+	/*border: 1px solid #f00;*/
+	margin-left: 50px;
+	line-height: 30px;
+	font-size: 12px;
+	font-weight: bold;
+	color: #444;
+}
+#content .photo1{
+	/*border: 1px solid #f00;*/
+	width: 1050px;
+	position: absolute;
+	top: 210px;
+	left: 50px;
+}
+#content .photo1 ul{
+	width: 1050px;
+	list-style-type: none;
+}
+#content .photo1 ul li{
+	float: left;
+	width: 210px;
+}
+
+/*点击图片放大的css代码*/
+#imgbox-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	display: none;
+	z-index:90;
+}
+
+.imgbox-wrap {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #FFF;
+	display: none;
+	z-index: 990;
+}
+/*点击图片放大的css代码结束*/
+
+#footer{
+	width: 1158px;
+	position: absolute;
+	top: 2080px;
+	left: 0px;
+}
